@@ -1,0 +1,40 @@
+.d1{
+    justify-self: center;
+    grid-column: 3/5;
+    margin-top: 50px;
+}
+
+.d2{
+    justify-self: center;
+    grid-column: 3/5;
+    /*margin-top: 50px;*/
+
+}
+
+.d3{
+    justify-self: center;
+    grid-column: 3/5;
+    /*margin-bottom: 100px;*/
+}
+
+.container{
+
+    display: grid;
+    grid-row-gap: 10px;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    grid-template-areas: "header header header" 
+    "content content content" 
+    "footer footer footer";
+}
+
+.search {
+    justify-self: center;
+}
+
+.logo {
+    width: 213px;
+    height: 72px;
+    justify-self: center;
+    grid-area: content;
+}
