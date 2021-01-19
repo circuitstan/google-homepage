@@ -70,6 +70,10 @@ input[type=text] {
     
 }
 
+input[type=text]:focus {
+    outline: none;
+}
+
 input[type=button] {
     padding: 5px;
     background-color: rgb(245, 245, 245);
