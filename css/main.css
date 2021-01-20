@@ -1,16 +1,14 @@
 .d1{
     position: fixed;
-    top: 16%;
+    top: 30%;
     left: 50%;
-    transform: translate(-50%, 50%);    
+    transform: translate(-50%, -50%);    
 }
 
 .d2{
-    position: fixed;
-    top: 43%;
-    left: 50%;
-    margin-left: -290px;
-    margin-top: -20px;
+    position: absolute;
+    margin-top: 30px;
+    margin-left: -140px;
     
 }
 
@@ -79,9 +77,9 @@ li {
 .mag {
     width: 18px;
     height: 18px;
-    margin-right: -35px;
-    margin-bottom: -3px;
-    position: relative;
+    top: 15px;
+    left: 15px;
+    position: absolute;
 }
 
 input[type=text] {
@@ -106,31 +104,33 @@ input[type=button] {
     background-color: rgb(245, 245, 245);
     border-color: transparent;
     font-size: 14px;
-    margin: -15px 3px 0px 3px;
+    width: 140px;
+    height: 40px;
+ 
 }
 
 
 
 .d3{
-    position: fixed;
-    top: 55%;
-    left: 50%;
+    position: absolute;
+    margin-top: 160px;
+    margin-left: 0px;
     transform: translate(-50%,-50%);
+    width: 300px;
+    height: 100px;
+    display: grid;
+    justify-items: center;
+    left: 140px;
 }
 
 .container{
     font-family: sans-serif;
 
-
-
 }
 
-.search {
-  
-}
 
 .logo {
-    width: 273px;
+    width: 272px;
     height: 92px;
 
 }
